@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-win8.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>TESTPİNE</title>
+</head>
+<body>
+
+<div class="panel">
+    <div class="container">
+        <button class="btn">
+            <img id="img1" src="image/admin.png" alt="">
+            <h4>
+                ADMİNİSTRATOR
+            </h4>
+        </button>
+    </div>
+    <div class="container">
+        <button id="btns" class="btn">
+            <h5>
+                DASHBOARD
+            </h5>
+        </button>
+    </div>
+    <div class="container">
+        <button id="btns" class="btn">
+            <h5>
+                ABOUT
+            </h5>
+        </button>
+    </div>
+    <div class="container">
+        <button id="btns" class="btn">
+            <h5>
+                CONTACT
+            </h5>
+        </button>
+    </div>
+    <div class="container">
+        <button id="resetButton" class="btn">
+            <h5>
+                RESET
+            </h5>
+        </button>
+    </div>
+   
+    <div class="container">
+        <button id="logout" class="btn">
+            <h5>LOG OUT</h5>
+        </button>
+    </div>
+</div>
+<div id="myForm" class="dashboard">
+    <div class="blok">
+        <div class="col-lg-3 px-0">
+    
+            <ul class="w3-bar  pl-0 rounded-top rounded-bottom">
+
+                <li class="   py-2 pr-5 pl-5"   id="in1" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group  rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>Name:</label>
+            <input type='text' class='form-control  ' id='usr' name='username'>
+        </div>">NAME</li>
+                
+                <li class="   py-2 pr-5 pl-5 "  id="in2" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group  rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>input text:</label>
+            <input type='text' class='form-control  ' id='usr' name='username'>
+        </div>">INPUT TEXT</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in3" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group  rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>Name:</label>
+            <input type='color' class='form-control  ' id='usr' name='username'>
+        </div>">COLOR</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in4" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group  rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>BUTTON:</label>
+                <input type='button' class='btn btn-success form-control' value='ok Button' id='usr' name='username'>
+        </div>">OK BUTTON</li>
+                <li class="   py-2 pr-5 pl-5"  id="in5" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group  rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>CHECKBOOX:</label>
+            <div class='custom-control custom-checkbox mb-3 pl-4'>
+                <input type='checkbox' class='custom-control-input' id='customCheck' name='example1'>
+                <label class='custom-control-label' for='customCheck'>checkbox</label>
+            </div>
+        </div>">CHECKBOX</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in6" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>ENTER DATE:</label>
+            <input type='date' class='form-control ' id='usr' name='username'>
+        </div>">DATE FIELD</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in7" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>UPLOAD YOUR FILE HERE:</label>
+            <div class='custom-file'>
+                <input type='file' class='custom-file-input' id='customFile'>
+                <label class='custom-file-label' for='customFile'>Choose file</label>
+            </div>
+        </div>">FILE UPLOAD</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in8" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>NUMBER:</label>
+            <input type='number' class='form-control ' id='usr' name='username'>
+        </div>">NUMBER</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in9" draggable="true" ondragstart="drag(event)" data-input="<div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>RADIO:</label><br>
+            <div class='custom-control custom-radio custom-control-inline'>
+                <input type='radio' class='custom-control-input' id='customRadio' name='example' value='customEx'>
+                <label class='custom-control-label' for='customRadio'>Custom radio 1</label>
+            </div>
+            <div class='custom-control custom-radio custom-control-inline'>
+                <input type='radio' class='custom-control-input' id='customRadio2' name='example' value='customEx'>
+                <label class='custom-control-label' for='customRadio2'>Custom radio 2</label>
+            </div>
+        </div>">RADIO</li>
+                <li class="   py-2 pr-5 pl-5 "  id="in10" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>SELECT ONE:</label>
+        <select name='cars' class='custom-select'>
+            <option selected>Select one</option>
+            <option >Lorem.</option>
+            <option >Lorem.</option>
+            <option >Lorem.</option>
+            <option >Lorem.</option>
+        </select>
+        </div>">SELECT</li>
+             
+                <li class="   py-2 pr-5 pl-5 "  id="in12" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>ENTER URLS:</label>
+            <input type='url' class='form-control ' id='usr' name='username'>
+        </div>">URL</li>
+                <li class="   py-2 pr-5 pl-5 " id="in15" draggable="true" ondragstart="drag(event)" data-input=" <div class='form-group rounded-lg'>
+            <label for='usr' class='text-primary pl-4 pt-1'>SELECT DATE AND TIME:</label>
+            <input type='datetime-local' class='form-control ' id='usr' name='username'>
+        </div>">DATE_TIME LOCAL</li>
+        <li  class="   py-2 pr-5 pl-5 " id="in11" draggable="true" ondragstart="drag(event)"
+            data-input=" 
+                        <textarea id='w' name='w' rows='5' cols='90%'>
+         Bu örnek sayfa Eren Kaplan tarafından hazırlandı.
+          </textarea>">TEXTAREA</li>
+              
+            </ul>
+        </div>
+    </div>
+    <main class="margin">
+  
+            <div class="row">
+                
+                    <div class="drop">
+                        <div class=" good " ondrop="drop(event)" ondragover="allowDrop(event)" id="box1" ondragenter="back()">
+                            <p style="text-align: center;align-items: center;" class="text-white " ondragover="going()" id="hop">Bu alana sürükleyiniz.</p>
+    
+            
+                    </div> 
+        
+                    
+                    </div>
+                </div>
+    </main>          
+</div>
+
+<script>
+    const resetButton = document.getElementById("resetButton");
+
+resetButton.addEventListener("click", function() {
+  location.reload(); // sayfayı yeniden yükler.
+});
+
+</script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
