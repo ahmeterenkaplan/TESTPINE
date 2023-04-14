@@ -10,6 +10,9 @@ Bu proje TESTPINE için Ahmet Eren Kaplan tarafından hazırlanmıştır.
 **İstemci:** HTML CSS BOOTSTRAP JAVASCRİPT
 
 
+## TEKNOLOJİ
+
+Drag-Drop form işlemleri.
 
   
 ## GOLİVE
