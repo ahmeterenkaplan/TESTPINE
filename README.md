@@ -5,12 +5,12 @@ Bu proje TESTPINE için Ahmet Eren Kaplan tarafından hazırlanmıştır.
 
 
 
-## Kullanılan Teknolojiler
+## KULLANILAN TEKNOLOJİLER
 
 **İstemci:** HTML CSS BOOTSTRAP JAVASCRİPT
 
 
-## TEKNOLOJİ
+## HEDEF
 
 Drag-Drop form işlemleri.
 
