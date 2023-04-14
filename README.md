@@ -1,5 +1,5 @@
 
-# Proje Başlığı
+# TESTPINE
 
 Bu proje TESTPINE için Ahmet Eren Kaplan tarafından hazırlanmıştır.
 
